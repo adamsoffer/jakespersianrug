@@ -21,6 +21,10 @@ export default class MyDocument extends Document {
       <html>
         <Head>
           <title>Jake's Persian Rug</title>
+          <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"
+          />
           <style dangerouslySetInnerHTML={{ __html: this.props.css }} />
           <script
             dangerouslySetInnerHTML={{
