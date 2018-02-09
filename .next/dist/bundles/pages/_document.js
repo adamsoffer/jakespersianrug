@@ -187,6 +187,15 @@ var MyDocument = function (_Document) {
               fileName: _jsxFileName,
               lineNumber: 24
             }
+          }),
+          __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement('script', {
+            dangerouslySetInnerHTML: {
+              __html: '(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({\'gtm.start\':\nnew Date().getTime(),event:\'gtm.js\'});var f=d.getElementsByTagName(s)[0],\nj=d.createElement(s),dl=l!=\'dataLayer\'?\'&l=\'+l:\'\';j.async=true;j.src=\n\'https://www.googletagmanager.com/gtm.js?id=\'+i+dl;f.parentNode.insertBefore(j,f);\n})(window,document,\'script\',\'dataLayer\',\'GTM-PDNHMWK\');'
+            },
+            __source: {
+              fileName: _jsxFileName,
+              lineNumber: 25
+            }
           })
         ),
         __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
@@ -194,19 +203,28 @@ var MyDocument = function (_Document) {
           {
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 26
+              lineNumber: 35
             }
           },
+          __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement('noscript', {
+            dangerouslySetInnerHTML: {
+              __html: '<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PDNHMWK" height="0" width="0" style="display:none;visibility:hidden"></iframe>'
+            },
+            __source: {
+              fileName: _jsxFileName,
+              lineNumber: 36
+            }
+          }),
           __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_next_document__["Main"], {
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 27
+              lineNumber: 41
             }
           }),
           __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_next_document__["NextScript"], {
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 28
+              lineNumber: 42
             }
           })
         )

@@ -93,11 +93,11 @@ var _jsxFileName = '/Users/ads1018/Sites/jakespersianrug/components/PersianRug/i
         lineNumber: 4
       }
     },
-    'On February 7th, 2018, Jake Burden bought a persian rug for 376.344 Spank.',
+    'On February 7th, 2018, Jake Burden bought a persian rug for 376.344 Spank ($70 at the time).',
     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('br', {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 6
+        lineNumber: 7
       }
     }),
     'That rug is now worth:',
@@ -106,7 +106,7 @@ var _jsxFileName = '/Users/ads1018/Sites/jakespersianrug/components/PersianRug/i
       {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 7
+          lineNumber: 8
         }
       },
       '$',
