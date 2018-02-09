@@ -8,7 +8,14 @@ export const Container = glamorous.div({
   height: '100vh',
   display: 'flex',
   justifyContent: 'center',
-  flexDirection: 'column'
+  flexDirection: 'column',
+  padding: '0 20px'
+})
+
+export const StyledLink = glamorous.a({
+  display: 'inline-block',
+  color: '#ffffff',
+  textDecoration: 'underline'
 })
 
 export const Price = glamorous.div({

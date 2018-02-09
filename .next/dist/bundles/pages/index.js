@@ -79,7 +79,10 @@ module.exports =
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("react");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__styles__ = __webpack_require__("./components/PersianRug/styles.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_next_link__ = __webpack_require__("next/link");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_next_link___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_next_link__);
 var _jsxFileName = '/Users/ads1018/Sites/jakespersianrug/components/PersianRug/index.js';
+
 
 
 
@@ -90,27 +93,56 @@ var _jsxFileName = '/Users/ads1018/Sites/jakespersianrug/components/PersianRug/i
     {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 4
+        lineNumber: 5
       }
     },
-    'On February 7th, 2018, Jake Burden bought a persian rug for 376.344 Spank ($70 at the time).',
-    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('br', {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 7
-      }
-    }),
-    'That rug is now worth:',
     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-      __WEBPACK_IMPORTED_MODULE_1__styles__["b" /* Price */],
+      'div',
       {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 8
+          lineNumber: 6
         }
       },
-      '$',
-      price.toFixed(2)
+      'On February 7th, 2018,',
+      ' ',
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        __WEBPACK_IMPORTED_MODULE_2_next_link___default.a,
+        { href: 'https://twitter.com/jekrb', passHref: true, __source: {
+            fileName: _jsxFileName,
+            lineNumber: 8
+          }
+        },
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          __WEBPACK_IMPORTED_MODULE_1__styles__["c" /* StyledLink */],
+          { target: '_blank', rel: 'noopener noreferrer', __source: {
+              fileName: _jsxFileName,
+              lineNumber: 9
+            }
+          },
+          'Jake Burden'
+        )
+      ),
+      ' ',
+      'bought a persian rug for 376.344 Spank ($70 at the time).',
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('br', {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 14
+        }
+      }),
+      'That rug is now worth:',
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        __WEBPACK_IMPORTED_MODULE_1__styles__["b" /* Price */],
+        {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 15
+          }
+        },
+        '$',
+        price.toFixed(2)
+      )
     )
   );
 });
@@ -122,6 +154,7 @@ var _jsxFileName = '/Users/ads1018/Sites/jakespersianrug/components/PersianRug/i
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Container; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return StyledLink; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return Price; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_glamorous__ = __webpack_require__("glamorous");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_glamorous___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_glamorous__);
@@ -135,7 +168,14 @@ var Container = __WEBPACK_IMPORTED_MODULE_0_glamorous___default.a.div({
   height: '100vh',
   display: 'flex',
   justifyContent: 'center',
-  flexDirection: 'column'
+  flexDirection: 'column',
+  padding: '0 20px'
+});
+
+var StyledLink = __WEBPACK_IMPORTED_MODULE_0_glamorous___default.a.a({
+  display: 'inline-block',
+  color: '#ffffff',
+  textDecoration: 'underline'
 });
 
 var Price = __WEBPACK_IMPORTED_MODULE_0_glamorous___default.a.div({
@@ -180,11 +220,6 @@ __WEBPACK_IMPORTED_MODULE_1_glamor__["css"].global('body', {
   margin: 0
 });
 
-__WEBPACK_IMPORTED_MODULE_1_glamor__["css"].global('a', {
-  color: '#22BAD9',
-  textDecoration: 'none'
-});
-
 __WEBPACK_IMPORTED_MODULE_1_glamor__["css"].global('p', {
   fontSize: '14px',
   lineHeight: '24px'
@@ -221,7 +256,7 @@ __WEBPACK_IMPORTED_MODULE_1_glamor__["css"].global('button:focus', {
     {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 59
+        lineNumber: 54
       }
     },
     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
@@ -229,7 +264,7 @@ __WEBPACK_IMPORTED_MODULE_1_glamor__["css"].global('button:focus', {
       {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 60
+          lineNumber: 55
         }
       },
       children
@@ -375,6 +410,13 @@ module.exports = require("glamorous");
 /***/ (function(module, exports) {
 
 module.exports = require("isomorphic-fetch");
+
+/***/ }),
+
+/***/ "next/link":
+/***/ (function(module, exports) {
+
+module.exports = require("next/link");
 
 /***/ }),
 
