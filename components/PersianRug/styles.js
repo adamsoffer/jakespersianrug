@@ -12,6 +12,11 @@ export const Container = glamorous.div({
   padding: '0 20px'
 })
 
+export const Wrapper = glamorous.div({
+  margin: '0 auto',
+  maxWidth: '730px'
+})
+
 export const StyledLink = glamorous.a({
   display: 'inline-block',
   color: '#ffffff',
@@ -20,7 +25,7 @@ export const StyledLink = glamorous.a({
 
 export const Price = glamorous.div({
   fontWeight: 'bold',
-  paddingTop: '20px',
+  paddingTop: '30px',
   fontSize: '48px',
   lineHeight: '56px'
 })
