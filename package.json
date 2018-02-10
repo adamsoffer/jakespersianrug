@@ -18,12 +18,14 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "fast-json-patch": "^2.0.6",
     "glamor": "^2.20.40",
     "glamorous": "^4.11.4",
     "isomorphic-fetch": "^2.2.1",
     "next": "^5.0.0",
     "react": "^16.2.0",
-    "react-dom": "^16.2.0"
+    "react-dom": "^16.2.0",
+    "streamdataio-js-sdk": "^2.0.2"
   },
   "devDependencies": {
     "husky": "^0.14.3",
