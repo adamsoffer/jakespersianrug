@@ -2,7 +2,7 @@ import { Container, Wrapper, Price, StyledLink, Heading } from './styles'
 import { Span, Div, H1 } from 'glamorous'
 import Link from 'next/link'
 
-export default ({ price }) => (
+const PersianRug = ({ price }) => (
   <Container>
     <Wrapper>
       <Heading>
@@ -12,7 +12,7 @@ export default ({ price }) => (
         </Span>
       </Heading>
       On February 7th, 2018,{' '}
-      <Link href="https://twitter.com/jekrb" passHref>
+      <Link href="https://twitter.com/jake_burden_" passHref>
         <StyledLink target="_blank" rel="noopener noreferrer">
           Jake Burden
         </StyledLink>
@@ -29,3 +29,5 @@ export default ({ price }) => (
     </Wrapper>
   </Container>
 )
+
+export default PersianRug

@@ -3,10 +3,12 @@ import Main from '../lib/layout'
 import PersianRug from '../components/PersianRug'
 import withPrice from '../lib/withPrice'
 
-export default withPrice(({ price }) => {
+const Home = withPrice(({ price }) => {
   return (
     <Main>
       <PersianRug price={price} />
     </Main>
   )
 })
+
+export default Home

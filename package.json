@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "node server.js",
+    "dev": "next",
     "build": "next build",
-    "start": "NODE_ENV=production node server.js",
+    "start": "next start",
     "precommit": "lint-staged"
   },
   "lint-staged": {
@@ -23,9 +23,9 @@
     "glamorous": "^4.11.4",
     "howler": "^2.0.8",
     "isomorphic-fetch": "^2.2.1",
-    "next": "^5.0.0",
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0",
+    "next": "^10.0.3",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
     "streamdataio-js-sdk": "^2.0.2"
   },
   "devDependencies": {
